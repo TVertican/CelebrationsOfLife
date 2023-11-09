@@ -1,0 +1,55 @@
+*{
+    font-family: "Noto Sans, sans-serif";
+ }
+ 
+/*  .navbar {
+     position: sticky;
+     top: 0px;
+ } */
+ 
+ .container-fluid {
+     padding: 10px;
+ }
+ 
+ .ulnav{
+     margin: 0;
+     height: 50px;
+     padding: 1.5em;
+     justify-content: space-between;
+ }
+ 
+ #buttons {
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+ 
+ #buttons a {
+     background-color: orange;
+     color: black;
+     font-size: 20px;
+     padding: 5px;
+     text-decoration: none;
+ }
+ 
+ hr{
+     border-top: 5px dotted black;
+ } 
+ 
+ p {
+     text-align: justify;
+ }
+ 
+ 
+ .container {
+     position: relative;
+     text-align: bottom-left;
+     color: white;
+   }
+ 
+ .caption {
+     position:absolute;
+     bottom: 8px;
+     left: 16px;
+     opacity: 0.35;
+   }
